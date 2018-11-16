@@ -1,0 +1,6 @@
+ExamTester.class: ExamGrader.java Answer.java SAAnswer.java MCAnswer.java MCSAAnswer.java Question.java SAQuestion.java MCQuestion.java MCSAQuestion.java Exam.java MCMAQuestion.java MCMAAnswer.java NumAnswer.java NumQuestion.java
+	$(RM) *.class
+	javac ExamGrader.java
+
+clean:
+	$(RM) *.class
